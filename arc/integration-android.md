@@ -13,7 +13,13 @@ Open build.gradle file and add **Spoteer** repository, **Arc** and **play-servic
 ```gradle
 repositories {
 	mavenCentral()
-	maven { url 'SPOTEER-MAVEN-URL' }
+	maven { 
+        	url 'http://maven.spoteer.com/artifactory/arc'
+		credentials {
+			username = "<USERNAME>"
+			password = "<PASSWORD>"
+		}		
+	}
 }
 
 dependencies {
