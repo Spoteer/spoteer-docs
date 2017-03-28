@@ -8,7 +8,7 @@
 This section describes how to integrate **Arc** into an existing project.
 
 ##### ANDROID STUDIO
-Open build.gradle file and add **Spoteer**'s repository, **Arc** and **play-services** dependancies:
+Open build.gradle file and add **Spoteer** repository, **Arc** and **play-services** dependancies:
 
 ```gradle
 repositories {
@@ -45,6 +45,7 @@ dependencies {
 </manifest>
 ```
 2 - Add the following application elements to the **AndroidManifest.xml**:
+
 ```xml
 <application>
   ...
@@ -72,7 +73,7 @@ dependencies {
 https://developers.google.com/android/guides/setup
 
 4 - Activate the **Arc** service
-Add a call to the Arc.activate() method in your applications first activity. This call receives the application context. Here is a simple example:
+Add a call to the Arc.activate() method in your application's first activity. This call receives the application context. Here is a simple example:
 ```java
 import com.spoteer.arc.Arc;
 
@@ -86,7 +87,7 @@ public class SplashScreenActivity extends Activity {
 }
 ```
 5 - Add Android 6 support
-Beginning in Android 6.0 (API level 23), users grant location permissions while the app is running using a Dialog. Call Arc.requestPermissionsRuntime() with the relevant activity, to show the location permission dialog. If the SDK is running on an older Android version, this method will not do anything.
+Beginning in Android 6.0 (API level 23), users grant location permissions, while the app is running, using a Dialog. Call Arc.requestPermissionsRuntime() with the relevant activity, to show the location permission dialog. If the SDK is running on an older Android version, this method will not do anything.
 ```java
 public class MainActivity extends Activity {
     @Override
