@@ -70,6 +70,7 @@ dependencies {
 ```
 3 - If your project doesn't have the Google Play Services SDK, please add it by following these instructions:
 https://developers.google.com/android/guides/setup
+
 4 - Activate the **Arc** service
 Add a call to the Arc.activate() method in your applications first activity. This call receives the application context. Here is a simple example:
 ```java
