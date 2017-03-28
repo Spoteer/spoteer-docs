@@ -15,7 +15,7 @@ repositories {
 	mavenCentral()
 	maven { url 'SPOTEER-MAVEN-URL' }
 }
-	
+
 dependencies {
   compile 'com.spoteer:arc:1.0.+@aar'
   compile 'com.google.android.gms:play-services:9.2.1'
