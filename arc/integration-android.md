@@ -10,7 +10,7 @@ This section describes how to integrate **Arc** into an existing project.
 ##### ANDROID STUDIO
 Open build.gradle file and add **Spoteer**'s repository, **Arc** and **play-services** dependancies:
 
-```
+```gradle
 repositories {
 	mavenCentral()
 	maven { url 'SPOTEER-MAVEN-URL' }
