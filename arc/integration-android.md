@@ -109,3 +109,14 @@ public class MainActivity extends Activity {
     }
 }
 ```
+
+6 - Set user id to enable attribution (optional):
+```java
+Arc.setUserId("YOUR_USER_ID");
+```
+
+7 - Set user gender and year-of-birth to improve location tracking and venue detection (optional):
+```java
+Arc.setUserInfo("gender", "male");
+Arc.setUserInfo("year_of_birth", "1984");
+```
