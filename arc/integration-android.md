@@ -23,7 +23,7 @@ repositories {
 }
 
 dependencies {
-  compile 'com.spoteer:arc:1.0.14'
+  compile 'com.spoteer:arc:1.0.19'
   compile 'com.google.android.gms:play-services:9.2.1'
 }
 ```
