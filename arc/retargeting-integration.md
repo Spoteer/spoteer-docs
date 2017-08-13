@@ -16,6 +16,7 @@ product: empty or:
 id
 price
 name
+
 Arc's pixel snippet will be provided separately.
 
 ## Spoteer Online Conversion Pixel
