@@ -121,8 +121,10 @@ Arc.setUserInfo("gender", "male");
 Arc.setUserInfo("year_of_birth", "1984");
 ```
 
-### Enable arc pixels from WebView apps
-Add the following application elements to the **AndroidManifest.xml**:
+### Enable Arc deep links from WebView apps
+1 - Assert that your app's WebView overrides the method `shouldOverrideUrlLoading` and starting activities for deep links.
+
+2 - Add the following application elements to the **AndroidManifest.xml**:
 ```xml
 <application>
   ...
