@@ -2,10 +2,10 @@
 Spoteer offers its advertisers with real-time audience targeting on digital outdoor billboards. There are two types of retargeting - generic & dynamic. To support general retargeting advertisers are only required to integrate Arc SDK into their app (see step 1 in section 'User In-Site Page Visits Reporting'). Dynamic retargeting, however, requires advertisers to comply with all of the following requirements:
 
 ## Facebook Product Feed Integration
-In order to successfully launch a dynamic retargeting campaign via Spoteer, advertisers are required to submit a link to a detailed product feed. Spoteer supports Facebook's product feed format.
+In order to successfully launch a dynamic retargeting campaign via Spoteer, advertisers are required to submit a link to their detailed product feed. Spoteer supports Facebook's product feed format. Please contact your Spoteer account manager to submit your feed.
 
 ## User In-Site Page Visits Reporting
-Spoteer offers real-time DOOH audience retargeting using its ARC technology. ARC has to be notified by the app for every category/product page visited by users in order to retarget them in the outdoors later. Notifying Spoteer (ARC) is done using deep links. The app should listen to the deep links' scheme while the website running inside the app should fire a relevant pixel, as described in the following steps:
+Spoteer offers real-time DOOH audience retargeting using its ARC technology. ARC has to be notified by the advertiser's app for every category/product page visited by users in order to retarget them in the outdoors later. Notifying Spoteer (ARC) is done using deep links. The app should listen to the deep links' scheme while the website running inside the app should fire a relevant pixel, as described in the following steps:
 
 ### Step 1:
 Integrate Arc SDK into the app: https://github.com/Spoteer/spoteer-docs/blob/master/arc/integration-android.md
