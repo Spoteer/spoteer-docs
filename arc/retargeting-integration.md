@@ -11,11 +11,11 @@ Integrate Arc SDK into the app: https://github.com/Spoteer/spoteer-docs/blob/mas
 
 ### Step2:
 Add Arc's pixel snippet (works like Google Analytics or similar) to every product and category page of the website, along with relevant data:
-  category name
-  product: empty or:
-    id
-    price
-    name
+  - category name
+  - product: empty or:
+    - id
+    - price
+    - name
 
 Arc's pixel snippet will be provided separately.
 
