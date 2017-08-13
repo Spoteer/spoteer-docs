@@ -23,7 +23,7 @@ repositories {
 }
 
 dependencies {
-  compile 'com.spoteer:arc:1.0.19'
+  compile 'com.spoteer:arc:1.0.21'
   compile 'com.google.android.gms:play-services:9.2.1'
 }
 ```
@@ -119,4 +119,21 @@ Arc.setUserId("YOUR_USER_ID");
 ```java
 Arc.setUserInfo("gender", "male");
 Arc.setUserInfo("year_of_birth", "1984");
+```
+
+### Enable arc pixels from WebView apps
+Add the following application elements to the **AndroidManifest.xml**:
+```xml
+<application>
+  ...
+	<activity android:name="com.spoteer.arc.ArcActivity">
+            <intent-filter>
+                <data android:scheme="arc"/>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+  ...
+</application>
 ```
