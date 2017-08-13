@@ -34,12 +34,12 @@ dependencies {
 ```xml
 <manifest>
         <!-- Basic permissions -Required for running the Arc SDK -->
-        <uses-permission android:name="android.permission.INTERNET" />
-        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-        <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+        <uses-permission android:name="android.permission.INTERNET" /> <!-- Mandatory -->
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Mandatory -->
+        <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- Mandatory -->
 	
         <!-- Location Permissions - Required for collecting location signals -->
-        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Mandatory -->
         <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
         <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
         <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
