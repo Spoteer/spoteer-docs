@@ -25,6 +25,6 @@ Spoteer supports 2 types of conversions - online and offline.
 
 An online conversion is attributed to a Spoteer campaign as a 'view-through-conversion' whenever a user who visited the advertiser's online site, was afterwards exposed to that advertiser's Spoteer campaign in the outdoors, and finally converted online.
 
-An offline conversion is attributed to a Spoteer campaign as an 'offline-conversion' whenever a user who visited the advertiser's online site also visited one of its stores later on.
+An offline conversion is attributed to a Spoteer campaign as an 'offline-conversion' whenever a user who visited the advertiser's online site, was afterwards exposed to that advertiser's Spoteer campaign in the outdoors, and visited one of its stores later on.
 
 Spoteer's default conversion window is set to 7 days for 'view-through-conversion' and 30 days for 'offline-conversion'.
