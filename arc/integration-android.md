@@ -120,6 +120,11 @@ Arc.setUserId("YOUR_USER_ID");
 Arc.setUserInfo("gender", "male");
 Arc.setUserInfo("year_of_birth", "1984");
 ```
+8 - Send events (optional). Event consists of category, action, label and value. 
+	In the following example, `category` is "catalog", `action` is "conversion", `label` is the product id and `value` is the sale price:
+```java
+Arc.event("catalog", "conversion", "CAT-17823-US", "12.99");
+```
 
 ### Enable Arc deep links from WebView apps
 1 - Assert that your app's WebView overrides the method `shouldOverrideUrlLoading` and starting activities for deep links.
