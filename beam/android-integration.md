@@ -126,9 +126,10 @@ Beam.show(getApplicationContext(), new OnShowResponse() {
          }
      });
 ```
+
   `ShowResponse` has the following properties:
  
-     **success** boolean value represents the accomplishment of the `show` request
+   **success**: boolean value represents the accomplishment of the `show` request
      
      
 7 - Whenever it's time to stop/hide Spoteer content, call the `hide` method with a callback listener:
@@ -144,6 +145,7 @@ Beam.show(getApplicationContext(), new OnHideResponse() {
          }
      });
 ```
+
   `HideResponse` has the following properties:
   
-     **success** boolean value represents the accomplishment of the `hide` request
+   **success** boolean value represents the accomplishment of the `hide` request
